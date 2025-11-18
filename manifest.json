@@ -5,7 +5,12 @@
   "description": "Adds hotkeys such as pagination shortcuts to supported websites.",
   "browser_specific_settings": {
     "gecko": {
-      "id": "{06d85fde-d1f4-464a-a560-5136f777c11a}"
+      "id": "{06d85fde-d1f4-464a-a560-5136f777c11a}",
+      "data_collection_permissions": {
+        "required": [
+          "none"
+        ]
+      }
     }
   },
   "content_scripts": [
