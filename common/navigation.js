@@ -4,9 +4,9 @@ function addArrowNavigation(backPageBtn, nextPageBtn) {
             return;
         }
 
-        if (e.key === 'ArrowLeft' || e.key === 'a') {
+        if (e.key === 'ArrowLeft') {
             backPageBtn?.click();
-        } else if (e.key === 'ArrowRight' || e.key === 'd') {
+        } else if (e.key === 'ArrowRight') {
             nextPageBtn?.click();
         }
     });
