@@ -1,0 +1,42 @@
+{
+  "manifest_version": 3,
+  "name": "Booru HotKeys",
+  "version": "1.0",
+  "description": "Adds hotkeys such as pagination shortcuts to supported websites.",
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "{06d85fde-d1f4-464a-a560-5136f777c11a}"
+    }
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "*://*.rule34.xxx/*",
+        "*://*.gelbooru.com/*",
+        "*://*.xbooru.com/*"
+      ],
+      "js": [
+        "common/navigation.js",
+        "case1.js"
+      ]
+    },
+    {
+      "matches": [
+        "*://*.fanservice.fan/*"
+      ],
+      "js": [
+        "common/navigation.js",
+        "case2.js"
+      ]
+    },
+    {
+      "matches": [
+        "*://*.zerochan.net/*"
+      ],
+      "js": [
+        "common/navigation.js",
+        "case3.js"
+      ]
+    }
+  ]
+}
