@@ -14,6 +14,7 @@ Currently supported websites (some of them are NSFW):
 
 - rule34.xxx
 - gelbooru.com
+- safebooru.org
 - xbooru.com
 - fanservice.fan
 - zerochan.net
