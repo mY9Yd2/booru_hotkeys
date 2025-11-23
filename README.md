@@ -18,3 +18,7 @@ Currently supported websites (some of them are NSFW):
 - xbooru.com
 - fanservice.fan
 - zerochan.net
+
+## Install
+
+- Firefox Addons: [booru-hotkeys-next](https://addons.mozilla.org/en-US/firefox/addon/booru-hotkeys-next/)
